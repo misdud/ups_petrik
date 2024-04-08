@@ -1,5 +1,5 @@
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# для копмиляции использовать
+# pyinstaller --hidden-import babel.numbers --noconsole  --windowed --onefile  --name=UPS --icon='G:\python_progect\pythonProject_UPS1\ups.ico' 'G:\python_progect\pythonProject_UPS1\main.py'
 # ----MAIN---PARAMETRS-----
 # импортируем библиотеку tkinter
 import tkinter

@@ -5,7 +5,6 @@ from tkinter import *
 from tkinter import messagebox
 from tkinter import ttk
 from tkinter.scrolledtext import ScrolledText
-
 from tkcalendar import DateEntry
 
 import connect_BD
@@ -2713,7 +2712,7 @@ def main_window(window, current_user_avtoriz=None):  # -----for сведения
     for el in window.winfo_children():
         el.destroy()
 
-    window.title('Учёт ИБП  -=ITPetrikov=-')
+    window.title('Учёт ИБП  -=VokirtepIT=-')
     # на весь экран
     window.state('zoomed')
     window.geometry("700x500+50+50")
@@ -3875,7 +3874,7 @@ def main_window(window, current_user_avtoriz=None):  # -----for сведения
                 <th>Треб. зам.АКБ</th>
                 <th>Дата замены</th>
                 <th>В ремотне</th>
-                <th>В ремонте с</th>
+                <th>В ремонте с </th>
                 <th>Дата ввода</th>
             </tr>
           </thead>

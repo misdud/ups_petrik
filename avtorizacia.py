@@ -17,17 +17,17 @@ def clear_data(data):
 
 
 def checked_user(window):
-    '''
+
     #res = socket.gethostbyname(socket.gethostname())
     #res = f"{res}"
     #res = res[0:5]
 
-    #dm = datetime.strptime('01-04-2200', '%d-%m-%Y')
+    #dm = datetime.strptime('01-04-2030', '%d-%m-%Y')
 
-    #if str(res[0:5]) != '10.30' or (time.time() > dm.timestamp()): #str(res[0:5]) != '10.30' or
-        messagebox.showwarning('Предупреждение', 'Что-то пошло не так, обратитесь к администратору.')
-        return
-    '''
+    #if (time.time() > dm.timestamp()): #str(res[0:5]) != '10.30' or
+    #    messagebox.showwarning('Предупреждение', 'Что-то пошло не так, обратитесь к администратору.')
+    #    return
+
     # получаем имя пользователя и пароль
     #global username_entry, password_entry
 
@@ -95,7 +95,7 @@ def form_avtoriz(window):
     # главное окно приложения
     #root = Tk()
     # заголовок окна
-    window.title('Вход  -=ITPetrikov=-')
+    window.title('Вход  -=VokirtepIT=-')
     # размерокна
     #window.geometry('330x180')
     # можно ли изменять размер окна - нет
